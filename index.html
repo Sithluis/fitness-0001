@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalisPowerZone</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/styleMobile.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+
+  <script src="JS/mobile-navBar.js" defer></script>
+
+</head>
+<body>
+        <nav class="navbar">
+
+            <button class="hamburguer" id="hamburguerButton">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        <ul class="nav-links-desktop">
+            <li><a href="páginas/dicas.html">DICAS</a></li>
+            <li><a href="páginas/saude.html">SAÚDE</a></li>
+            <li><a href="páginas/ajuda.html" target="_blank">AJUDA</a></li>
+        </ul>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close" id="closeButton">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="nav-links-mobile">
+                <li><a href="páginas/dicas.html">DICAS</a></li>
+                <li><a href="páginas/saude.html">SAÚDE</a></li>
+                <li><a href="páginas/ajuda.html" target="_blank">AJUDA</a></li>
+            </ul>
+        </div>
+
+        </nav>
+
+    <main>
+        <br>
+        <br>
+        <div>
+            <input type="text" id="search" placeholder="parte do corpo que deseja treinar">
+            <label for="search-input" class="search-icon" onclick="pesquisar()">&#128269;</label>
+        </div>
+        <br>
+        <section>
+            <p>Bem-Vindo ao</p>
+            
+            <h1>CalisPowerZone</h1>
+            
+            <p>Se Procura Treinos Calistênicos e Dicas de Como Fazê-los, <br> Veio ao Lugar Certo. Siga Firme!</p>
+            <br>
+        
+            <a id="um" href="https://www.tuasaude.com/calistenia/"  target="_blank">SAIBA MAIS</a>
+            <a id="dois" href="exercicios/tExercicios.html">TODOS OS TREINOS</a>
+        </section>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>
